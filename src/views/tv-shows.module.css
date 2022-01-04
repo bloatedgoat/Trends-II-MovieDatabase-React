@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: radial-gradient(circle at center, rgb(189, 195, 199) 8.00%,rgb(189, 195, 199) 8.00%,rgb(44, 62, 80) 100.00%);
+}
+.container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 505px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container2 {
+  flex: 0 0 auto;
+  width: 900px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}

@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: radial-gradient(circle at center, rgb(189, 195, 199) 0.00%,rgb(189, 195, 199) 0.00%,rgb(15, 49, 83) 70.00%);
+}
+.Filmtitel {
+  color: var(--dl-color-gray-white);
+  height: 66px;
+  padding: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.container1 {
+  width: 100%;
+  height: 416px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Filmposter {
+  width: 254px;
+  height: 377px;
+  margin: var(--dl-space-space-twounits);
+  margin-top: var(--dl-space-space-unit);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.Filmtrailer {
+  width: 741px;
+  height: 381px;
+  margin-top: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.container2 {
+  width: 100%;
+  height: 403px;
+  display: flex;
+  align-items: flex-start;
+}
+.Score {
+  color: var(--dl-color-primary-700);
+  font-size: 35px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 700;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.MovieInformation {
+  flex: 0 0 auto;
+  width: 1047px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
