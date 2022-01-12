@@ -8,10 +8,16 @@ import styles from './row-for-film-posters.module.css'
 const RowForFilmPosters = (props) => {
   return (
     <div className={` ${styles['container']} ${styles[props.rootClassName]} `}>
-      <div className={styles['container1']}>
-        <FilmPoster rootClassName="rootClassName1"></FilmPoster>
-        <FilmPoster rootClassName="rootClassName2"></FilmPoster>
-        <FilmPoster rootClassName="rootClassName3"></FilmPoster>
+      <div className={'movies-container'}>
+
+      <FilmPoster movie={movie} rootClassName="rootClassName3" />
+
+
+        {/* {
+          props.movies.map((movie, index) => (
+            <FilmPoster movie={movie} rootClassName="rootClassName3" />
+          ))
+        } */}
       </div>
     </div>
   )

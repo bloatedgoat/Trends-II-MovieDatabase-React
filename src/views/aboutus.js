@@ -30,10 +30,10 @@ const Aboutus = () => {
         placeholder="We are a group of students from Erasmushogeschool Brussel. We made this site as an assignment for Trends 2. Below you can find the location of EHB."
         className={` ${styles['Textarea']} ${projectStyles['textarea']} `}
       ></textarea>
-      <iframe
+      {/* <iframe
         src="https://maps.google.com/maps?q=EHB&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
         className={styles['iframe']}
-      ></iframe>
+      ></iframe> */}
     </div>
   )
 }
