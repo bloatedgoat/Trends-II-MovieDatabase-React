@@ -37,12 +37,16 @@ const Sidebar = (props) => {
             />
           </div>
         </div>
+        <button className={` ${styles['button']} ${projectStyles['button']} `}>
+          {props.button}
+        </button>
       </div>
     </div>
   )
 }
 
 Sidebar.defaultProps = {
+  button: 'Search',
   textinput_placeholder: 'search...',
   text4: 'Search',
   text3: 'Rating',
@@ -53,6 +57,7 @@ Sidebar.defaultProps = {
 }
 
 Sidebar.propTypes = {
+  button: PropTypes.string,
   textinput_placeholder: PropTypes.string,
   text4: PropTypes.string,
   text3: PropTypes.string,

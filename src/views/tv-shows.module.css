@@ -6,7 +6,7 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: radial-gradient(circle at center, rgb(189, 195, 199) 8.00%,rgb(189, 195, 199) 8.00%,rgb(44, 62, 80) 100.00%);
+  background-image: radial-gradient(circle at center, rgb(189, 195, 199) 0.00%,rgb(189, 195, 199) 0.00%,rgb(15, 49, 83) 70.00%);
 }
 .container1 {
   flex: 0 0 auto;

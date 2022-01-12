@@ -34,6 +34,20 @@
   --dl-space-space-threeunits: 48px;
   --dl-space-space-oneandhalfunits: 24px;
 }
+.teleport-show {
+  display: flex !important;
+}
+.list-item {
+  display: list-item;
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
 .button {
   color: var(--dl-color-gray-black);
   display: inline-block;
@@ -83,9 +97,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.teleport-show {
-  display: flex !important;
 }
 .heading {
   font-size: 32px;
