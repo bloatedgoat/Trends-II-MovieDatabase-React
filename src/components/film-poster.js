@@ -12,15 +12,15 @@ const FilmPoster = (props) => {
       <div className={styles['container1']}>
         <img alt={props.poster} src={props.movie} className={styles['Image']} />
         <span className={styles['text']}>{props.filmtitle}</span>
-      </div>
-      <div className={styles['container2']}>
-        <span className={styles['text1']}>{props.score}</span>
-        <Link
-          to="/selected-movie-serie"
-          className={` ${styles['navlink']} ${projectStyles['button']} `}
-        >
-          {props.details}
-        </Link>
+        <div className={styles['container2']}>
+          <span className={styles['text1']}>{props.score}</span>
+          <Link
+            to="/selected-movie-serie"
+            className={` ${styles['navlink']} ${projectStyles['button']} `}
+          >
+            {props.details}
+          </Link>
+        </div>
       </div>
     </div>
   )

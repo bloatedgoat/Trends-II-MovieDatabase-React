@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
 import Sidebar from '../components/sidebar'
-import RowForFilmPosters from '../components/row-for-film-posters'
+import FilmPoster from '../components/film-poster'
 import styles from './movies.module.css'
 
 const Movies = () => {
@@ -18,7 +18,7 @@ const Movies = () => {
       <div className={styles['container1']}>
         <Sidebar rootClassName="rootClassName"></Sidebar>
         <div className={styles['container2']}>
-          <RowForFilmPosters rootClassName="rootClassName1"></RowForFilmPosters>
+          <FilmPoster rootClassName="rootClassName5"></FilmPoster>
         </div>
       </div>
     </div>

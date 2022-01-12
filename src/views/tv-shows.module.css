@@ -17,10 +17,9 @@
   justify-content: flex-start;
 }
 .container2 {
-  flex: 0 0 auto;
-  width: 900px;
-  height: auto;
+  width: 80%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  flex-flow: row wrap;
+  align-content: space-around;
+  justify-content: center;
 }
