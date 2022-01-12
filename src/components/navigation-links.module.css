@@ -19,6 +19,12 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.About-us {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 
 .rootClassName1 {
   top: -7px;

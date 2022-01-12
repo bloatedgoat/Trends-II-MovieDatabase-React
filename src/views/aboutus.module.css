@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: radial-gradient(circle at center, rgb(189, 195, 199) 0.00%,rgb(189, 195, 199) 0.00%,rgb(15, 49, 83) 70.00%);
+}
+.Heading {
+  top: 200;
+  position: absolute;
+}
+.Textarea {
+  top: 280;
+  width: 600;
+  height: 286px;
+  margin: auto;
+  position: absolute;
+}
+.iframe {
+  top: 600;
+  width: 600;
+  height: 285;
+  margin: auto;
+  position: absolute;
+}

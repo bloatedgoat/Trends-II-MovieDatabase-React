@@ -17,6 +17,9 @@ const NavigationLinks = (props) => {
       <Link to="/tv-shows" className={styles['navlink2']}>
         {props.text1}
       </Link>
+      <Link to="/aboutus" className={styles['About-us']}>
+        {props.text4}
+      </Link>
     </nav>
   )
 }
@@ -26,6 +29,8 @@ NavigationLinks.defaultProps = {
   text1: 'TvShows',
   rootClassName: '',
   text: 'Home',
+  text4: 'About us',
+  link_text: 'https://example.com',
 }
 
 NavigationLinks.propTypes = {
@@ -33,6 +38,8 @@ NavigationLinks.propTypes = {
   text1: PropTypes.string,
   rootClassName: PropTypes.string,
   text: PropTypes.string,
+  text4: PropTypes.string,
+  link_text: PropTypes.string,
 }
 
 export default NavigationLinks

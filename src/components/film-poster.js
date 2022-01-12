@@ -16,7 +16,7 @@ const FilmPoster = (props) => {
       <div className={styles['container2']}>
         <span className={styles['text1']}>{props.score}</span>
         <Link
-          to="/selected-movie"
+          to="/selected-movie-serie"
           className={` ${styles['navlink']} ${projectStyles['button']} `}
         >
           {props.details}
