@@ -19,7 +19,7 @@ const App = () => {
         <Route
           exact
           component={SelectedMovieSerie}
-          path="/selected-movie-serie"
+          path="/movie/:id"
         />
         <Route exact component={TvShows} path="/tv-shows" />
       </div>
