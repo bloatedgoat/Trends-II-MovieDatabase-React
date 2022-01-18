@@ -14,7 +14,7 @@ const Movies = () => {
     fetch('https://api.themoviedb.org/3/search/movie?api_key=07a61de5b731a869bc9cec8e25d2c8a8&query=batman')
       .then(res => res.json())
       .then(data => setMovies(data.results))
-  })
+  },[])
 
   const clickHandler = (e,obj)=>{
     e.preventDefault()
