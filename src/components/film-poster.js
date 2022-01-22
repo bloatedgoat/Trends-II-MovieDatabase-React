@@ -10,14 +10,12 @@ const FilmPoster = (props) => {
   return (
     <div className={` ${styles['container']} ${styles[props.rootClassName]} `}>
       <div className={styles['container1']}>
-        <img alt={props.movie.original_title} src={`https://image.tmdb.org/t/p/w220_and_h330_face/${props.movie.poster_path}`} className={styles['Image']} />
-        <span className={styles['text']}>{props.movie.original_title}</span>
+        <img alt={props.poster} src={props.movie} className={styles['Image']} />
+        <span className={styles['text']}>{props.filmtitle}</span>
         <div className={styles['container2']}>
-          <span className={styles['text1']}>{props.movie.vote_average}</span>
-        {/*selected-movie-serie*/}
+          <span className={styles['text1']}>{props.score}</span>
           <Link
-            to={`/movie/${props.movie.id}`}
-           
+            to="/selected-movie-serie"
             className={` ${styles['navlink']} ${projectStyles['button']} `}
           >
             {props.details}

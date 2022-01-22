@@ -8,7 +8,7 @@ import Aboutus from './views/aboutus'
 import Movies from './views/movies'
 import SelectedMovieSerie from './views/selected-movie-serie'
 import TvShows from './views/tv-shows'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 const App = () => {
   return (
     <Router>
@@ -19,7 +19,7 @@ const App = () => {
         <Route
           exact
           component={SelectedMovieSerie}
-          path="/movie/:id"
+          path="/selected-movie-serie"
         />
         <Route exact component={TvShows} path="/tv-shows" />
       </div>
