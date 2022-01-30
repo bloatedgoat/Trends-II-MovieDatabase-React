@@ -6,6 +6,7 @@ import Header from '../components/header'
 import Sidebar from '../components/sidebar'
 import RowForFilmPosters from '../components/row-for-film-posters'
 import styles from './movies.module.css'
+import FilmPoster from '../components/film-poster'
 
 const Movies = () => {
   const [movies, setMovies] = useState([])
