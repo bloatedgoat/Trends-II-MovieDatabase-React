@@ -31,6 +31,8 @@ const SelectedMovieSerie = () => {
           content="SelectedMovie/Serie - Trends II MovieDatabase"
         />
       </Helmet>
+     
+      <Header/>
       <div className={styles['container1']}>
         <img
           alt="image"
