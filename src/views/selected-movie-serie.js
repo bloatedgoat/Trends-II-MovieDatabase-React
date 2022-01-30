@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
 import { Helmet } from 'react-helmet'
-import { useParams } from 'react-router-dom'
 import { Badge } from 'react-bootstrap'
 import Header from '../components/header'
 import styles from './selected-movie-serie.module.css'
