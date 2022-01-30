@@ -55,7 +55,7 @@
   font-weight: 700;
   margin-right: var(--dl-space-space-oneandhalfunits);
 }
-.navlink {
+.button {
   width: 84px;
   height: 34px;
   align-self: flex-end;
@@ -63,7 +63,6 @@
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
 }
 
 

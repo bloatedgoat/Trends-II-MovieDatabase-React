@@ -1,10 +1,10 @@
-import { React, useState, useEffect } from 'react'
+import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
 import Sidebar from '../components/sidebar'
-import FilmPoster from '../components/film-poster'
+import RowForFilmPosters from '../components/row-for-film-posters'
 import styles from './movies.module.css'
 
 const Movies = () => {

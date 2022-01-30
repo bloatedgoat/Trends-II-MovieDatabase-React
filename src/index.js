@@ -4,9 +4,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.module.css'
 import Home from './views/home'
-import Aboutus from './views/aboutus'
 import Movies from './views/movies'
-import SelectedMovieSerie from './views/selected-movie-serie'
+import SelectedMovie from './views/selected-movie'
 import TvShows from './views/tv-shows'
 
 const App = () => {
@@ -14,7 +13,6 @@ const App = () => {
     <Router>
       <div>
         <Route exact component={Home} path="/" />
-        <Route exact component={Aboutus} path="/aboutus" />
         <Route exact component={Movies} path="/movies" />
         <Route
           exact

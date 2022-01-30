@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -15,12 +14,9 @@ const SeriesPoster = (props) => {
       </div>
       <div className={styles['container2']}>
         <span className={styles['text1']}>{props.score}</span>
-        <Link
-          to="/selected-movie-serie"
-          className={` ${styles['navlink']} ${projectStyles['button']} `}
-        >
+        <button className={` ${styles['button']} ${projectStyles['button']} `}>
           {props.details}
-        </Link>
+        </button>
       </div>
     </div>
   )

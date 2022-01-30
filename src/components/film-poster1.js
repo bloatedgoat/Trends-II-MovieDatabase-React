@@ -25,21 +25,21 @@ const FilmPoster1 = (props) => {
 }
 
 FilmPoster1.defaultProps = {
-  rootClassName: '',
   poster: 'poster',
-  movie: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  filmtitle: 'Filmtitle',
-  score: 'score',
   details: 'Details',
+  filmtitle: 'Filmtitle',
+  rootClassName: '',
+  score: 'score',
+  movie: 'https://play.teleporthq.io/static/svg/default-img.svg',
 }
 
 FilmPoster1.propTypes = {
-  rootClassName: PropTypes.string,
   poster: PropTypes.string,
-  movie: PropTypes.string,
-  filmtitle: PropTypes.string,
-  score: PropTypes.string,
   details: PropTypes.string,
+  filmtitle: PropTypes.string,
+  rootClassName: PropTypes.string,
+  score: PropTypes.string,
+  movie: PropTypes.string,
 }
 
 export default FilmPoster1
