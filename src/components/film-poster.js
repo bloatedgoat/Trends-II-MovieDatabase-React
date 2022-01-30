@@ -14,8 +14,10 @@ const FilmPoster = (props) => {
         <span className={styles['text']}>{props.movie.original_title}</span>
         <div className={styles['container2']}>
           <span className={styles['text1']}>{props.movie.vote_average}</span>
+        {/*selected-movie-serie*/}
           <Link
-            to="/selected-movie-serie"
+            to={`/movie/${props.movie.id}`}
+           
             className={` ${styles['navlink']} ${projectStyles['button']} `}
           >
             {props.details}
