@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './style.module.css'
 import Home from './views/home'
 import Movies from './views/movies'
-import SelectedMovieSerie from './views/SelectedMovieSerie'
+import SelectedMovieSerie from './views/selected-movie-serie'
 import TvShows from './views/tv-shows'
 
 const App = () => {
