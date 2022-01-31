@@ -25,7 +25,7 @@ const Movies = () => {
   return (
     <div className={styles['container']}>
       <Helmet>
-        <title>Movies - Trends II MovieDatabase</title>
+        <title>Movies - Trends II MovieDatabasexxxxxx</title>
         <meta property="og:title" content="Movies - Trends II MovieDatabase" />
       </Helmet>
       <Header></Header>
