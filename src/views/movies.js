@@ -11,7 +11,7 @@ const Movies = () => {
   const [movies, setMovies] = useState([])
   const [selectedMovie,setSelectedMovie] = useState([])
   useEffect(() => {
-    fetch('https://api.themoviedb.org/3/search/movie?api_key=07a61de5b731a869bc9cec8e25d2c8a8&query=batman')
+    fetch('https://api.themoviedb.org/3/search/movie?api_key=xe5b731a869bc9cec8e25d2c8a8&query=batman')
       .then(res => res.json())
       .then(data => setMovies(data.results))
   },[])
